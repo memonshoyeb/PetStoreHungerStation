@@ -73,13 +73,13 @@ We are using the PET on line as example [http://petstore.swagger.io/#/]
  4. Define your test data as in Excel Control file , PetServiceDetails sheet 
  5. Save all you work.
  6. Got to Class Runner.
- 8. run the test by using the /main method. If "java 5 compiler does not support (Error in IntelliJ)", then follow Troubleshooting section.
+ 8. run the test by using the /main method. If "java: error: release version 5 not supported (Error in IntelliJ)", then follow Troubleshooting section.
  9. The system will run the test and generate a HTML report with date and time stamp name as per the bellow example 
 	Reports/Automation_Result_2020_08_22_082802/Automation_Report.html
 
 ### Troubleshooting:
 
-    Problem Statement: "java 5 compiler does not support (Error in IntelliJ)"
+    Problem Statement: "java: error: release version 5 not supported (Error in IntelliJ)"
     Solution:
     1. Goto File>Settings>Search for "Java compiler" and change the target bytecode version in module section to 11.
     2. Goto File>Project Structure>Modules and change the Language level to 11 under Source tab.
